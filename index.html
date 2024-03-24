@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Tailwind CSS</title>
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="assets/css/tailwindcss-compailed/tailwind.css">    
+    <link rel="stylesheet" href="assets/css/main-style.css">    
+
+</head>
+<body>
+    <div class="text-white">Hello</div>
+</body>
+</html>
+
+
+
+<!-- 
+
+    Steps:
+    1. node -v
+    Checking if node exits
+
+    2. npm init -y
+    Initializing npm (Creates package.json file at the project root)
+
+    3. npm i -D tailwindcss
+    Tailwindcss as a Dependency of the project
+
+    5. npx tailwindcss init
+    Initializing tailwindcss
+    
+    6. Create src/tailwind.css file
+    This is source file (un-compiled)
+
+    7. Write the lines in src/tailwind.css file
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    8. Create output/tailwind.css file
+    This is output file (compiled)
+
+    9. create .vscode/settings.json file and write the code below:
+    {
+        "css.validate": false,
+        "tailwindCSS.emmetCompletions": true,
+    }
+
+    10. Write the lines in package.json file
+    "scripts": {
+        "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
+    },
+
+    11. npm run build
+    Run the build
+
+    Done !!!
+
+
+ -->

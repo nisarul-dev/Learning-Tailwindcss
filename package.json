@@ -1,0 +1,15 @@
+{
+  "name": "learning-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwindcss-noncompiled/tailwind.css -o ./assets/css/tailwindcss-compailed/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
