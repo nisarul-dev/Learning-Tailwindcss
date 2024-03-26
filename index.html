@@ -6,18 +6,27 @@
     <title>Learning Tailwind CSS</title>
 
     <!-- Load CSS -->
-    <link rel="stylesheet" href="assets/css/tailwindcss-compailed/tailwind.css">    
-    <link rel="stylesheet" href="assets/css/main-style.css">    
+    <link rel="stylesheet" href="assets/css/tailwindcss-compailed/tailwind.css">
+    <link rel="stylesheet" href="assets/css/main-style.css">
 
 </head>
-<body>
-    <div class="text-white">Hello</div>
+<body class="h-screen flex flex-row items-center justify-center bg-gray-100">
+    <div class="card max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2">
+        <div class="image-area space-y-16 text-center">
+            <img class="inline w-32 ring-4 rounded-full ring-red-500" src="./assets/images/download.png" alt="Sumit Saha">
+        </div>
+        <div class="text-area text-center space-y-2">
+            <p class="text-2xl font-semibold">Learn With Sumit</p>
+            <p class="text-xl text-gray-500">Youtube Channel</p>
+            <button class="text-violet-500 font-semibold border-2 border-slate-200 rounded-full borde px-5 py-1">Visit now</button>
+        </div>
+    </div>
 </body>
 </html>
 
 
 
-<!-- 
+<!--
 
     Steps:
     1. node -v
@@ -31,7 +40,7 @@
 
     5. npx tailwindcss init
     Initializing tailwindcss
-    
+
     6. Create src/tailwind.css file
     This is source file (un-compiled)
 
